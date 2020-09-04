@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-{% load static %}
 <html lang="en">
 <head>
 
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href='{% static "/css/style.css" %}'>
-    <script src="{% static 'js/script.js' %}" type="text/javascript" defer></script>
+    <link rel="stylesheet" type="text/css" href='static/css/style.css'>
+    <script href="static/js/script.js" type="text/javascript" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
@@ -25,26 +24,8 @@
 
  <div class="main" id="myDiv" style="display:none">
 
-     <!--
-     <section>
-        <div class="set">
-            <div><img src="{% static 'images/leaf1.png' %}" width="25" height="25"></div>
-            <div><img src="{% static 'images/leaf2.png' %}" width="25" height="25"></div>
-            <div><img src="{% static 'images/leaf1.png' %}" width="25" height="25"></div>
-            <div><img src="{% static 'images/leaf2.png' %}" width="25" height="25"></div>
-            <div><img src="{% static 'images/leaf2.png' %}" width="25" height="25"></div>
-            <div><img src="{% static 'images/leaf1.png' %}" width="25" height="25"></div>
-            <div><img src="{% static 'images/leaf1.png' %}" width="25" height="25"></div>
-        </div>
-     </section>
-     -->
         <div class="top-bar">
             <a href="#" class="logo"><img src="{% static 'images/logo.png' %}" width="5%"></a>
-            <!--
-                <audio controls id="nav-audio">
-                    <source src="{% static 'audio/test.mp3' %}" type="audio/mpeg">
-                </audio>
-                -->
             <div class="nav">
                 <h3 style="font-size:2vw;">
                     <a href="#" >What is Vtuber?</a>
@@ -56,14 +37,7 @@
             </div>
 
         </div>
-
-     <!--
-     <div id="myOverlay" class="overlay">
-         <div class="Notibox">
-             <span class="closebtn" onclick="closeNoti()" title="Close Overlay">×</span>
-         </div>
-     </div>
-        -->
+     
         <div class="imgbox">
             <div class="charbody">
                 <div class="borderbox">
@@ -71,9 +45,9 @@
                     <div class="pto active">
                         <img src="{% static 'images/body.png' %}" class="pto-pic">
                         <div class="link">
-                            <a href="#"><img src="{% static 'images/facebook.png'%}" class="facebook"></a>
-                            <a href="#"><img src="{% static 'images/twitter.png'%}" class="twitter"></a>
-                            <a href="#"><img src="{% static 'images/youtube.png'%}" class="youtube"></a>
+                            <a href="#"><img src="static/images/facebook.png" class="facebook"></a>
+                            <a href="#"><img src="static/images/twitter.png" class="twitter"></a>
+                            <a href="#"><img src="static/images/youtube.png" class="youtube"></a>
                         </div>
                         <div class="textbox">
                             <h3 style="font-size:2vw;">((VTUBER NAME))</h3>
